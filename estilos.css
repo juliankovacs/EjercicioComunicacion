@@ -1,0 +1,122 @@
+header{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	min-height: 50px;
+	align-items: center;
+	padding: 5px;
+}
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    position: fixed;
+    bottom: 0; /* Esto fija el footer en la parte inferior de la ventana */
+    width: 100%;
+}
+.logo{
+	display: flex;
+	align-items: center;
+}
+
+.logo img{
+	height: 50px;
+	margin-right:20px;
+}
+
+nav{
+	padding: 10px 0px;
+}
+
+body{
+	margin : 0;
+    background-size: cover; /* Ajustar la imagen para que cubra todo el fondo */
+    background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+    background-attachment: fixed; /* Fijar la imagen para que el fondo no se desplace */
+    background-position: center center;
+}
+
+a{
+	margin:10px;
+	color: black;
+}
+
+a:hover{
+	color:gray;
+}
+
+nav a{
+	font-weight: 500;
+	padding-right: 10px;
+	color: red;
+
+}
+
+.img img{
+	display: block;
+	justify-content: center;
+	align-items: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+
+}
+
+/* Aplica un margen interior (padding) al formulario para separar los campos */
+form {
+    background-color: rgba(255, 255, 255, 0.7); /* Cambia el valor de 0.7 */
+    padding: 20px;
+    margin-top: 30px;
+    margin-right: auto; /* Centro horizontalmente */
+    margin-left: auto; /* Centro horizontalmente */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    width: 300px; /* Establece un ancho fijo para el contenedor */
+    border-radius: 10px; /* Agrega bordes redondeados al contenedor */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Agrega sombra al contenedor */
+    z-index: 999; /* Asegura que el contenedor esté en la parte superior de otros elementos */
+}
+
+/* Estilo para las etiquetas (labels) */
+label {
+    display: block; /* Hace que las etiquetas ocupen una línea completa */
+    margin-bottom: 10px; /* Añade espacio entre etiquetas y campos */
+}
+
+/* Estilo para los campos de entrada (inputs) */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%; /* Los campos se expanden para llenar el ancho del formulario */
+    padding: 10px; /* Añade espacio dentro de los campos */
+    margin-bottom: 15px; /* Añade espacio entre los campos */
+}
+
+/* Estilo para el botón de envío */
+input[type="boton"] {
+    background-color: #007BFF; /* Cambia el color de fondo del botón */
+    color: #fff; /* Cambia el color del texto del botón */
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+}
+
+
+
+/* Estilo para la imagen captcha */
+img[src="captcha.php"] {
+    display: block; /* Asegura que la imagen se muestre en una línea completa */
+    margin-bottom: 15px; /* Añade espacio entre la imagen y otros elementos */
+}
+
+body {
+    flex-grow: 1; /* Hace que el contenido principal ocupe el espacio restante */
+}
+
+footer {
+    flex-shrink: 0; /* Evita que el footer se reduzca si el contenido es pequeño */
+}

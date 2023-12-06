@@ -1,0 +1,113 @@
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    align-items: center;
+    padding: 5px;
+  }
+
+  footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    min-height: 50px;
+    align-items: center;
+    padding: 5px;
+    color: white;
+    position: fixed;
+    bottom: 0; /* Esto fija el footer en la parte inferior de la ventana */
+    width: 100%;
+}
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    height: 50px;
+    margin-right: 20px;
+  }
+
+  .container {
+    margin-top: 20px; /* Agregamos un margen superior para separar del encabezado */
+    padding: 15px; /* Agregamos un relleno para reducir el marco del contenedor */
+    border-radius: 5px; /* Agregamos bordes redondeados al contenedor */
+    background-color: #f5f5f5; /* Cambiamos el color de fondo para que sea más visible */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Agregamos una sombra suave */
+  }
+
+  nav {
+    padding: 10px 0px;
+  }
+
+  body {
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+
+  a {
+    margin: 10px;
+    color: black;
+  }
+
+  a:hover {
+    color: gray;
+  }
+
+  nav a {
+    font-weight: 500;
+    padding-right: 10px;
+    color: red;
+  }
+
+  body {
+    flex-grow: 1;
+  }
+
+  footer {
+    flex-shrink: 0;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Agregamos un margen superior para separar el contenido del encabezado */
+  }
+
+  /* Estilos para los botones */
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* Estilos para los botones al pasar el cursor por encima */
+  button:hover {
+    background-color: gray;
+  }
+
+  /* Estilos para el mensaje */
+.mensaje-container {
+  background-color: #f7f7f7; /* Cambia el color de fondo según tus preferencias */
+  padding: 20px;
+  border: 1px solid #ddd; /* Agrega un borde al mensaje si lo deseas */
+  margin-top: 20px; /* Espacio superior para separarlo del formulario */
+}
+.mensaje-container h2 {
+  font-size: 24px; /* Tamaño de fuente para el título del mensaje */
+  color: #333; /* Color del texto del título */
+}
+.mensaje-container p {
+  font-size: 16px; /* Tamaño de fuente para los párrafos del mensaje */
+  color: #666; /* Color del texto del mensaje */
+}
